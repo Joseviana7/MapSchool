@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 200%;
+    background-color: #ededed;
+    font-family:sans-serif;
+    position: absolute;
+}
+
+#topo{  
+    max-width: 1500px;
+    background-color: white;
+    height: 70px;
+    border-bottom: 2px solid #ccc ;
+}
+
+h1{
+    color: rgb(55, 11, 136);
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+ul{
+    display: inline-block;
+    float: right;
+    margin-right: 110px;
+    margin-top: 26px;
+}
+ul li a {
+    color: rgb(55, 11, 136);
+}
+
+li{
+  display: inline-block;
+}
+header ul li{
+    margin-left: 25px;
+}
+
+header ul li:last-child{
+    margin-right: 0;
+}
+
+li a:hover{
+    border-bottom: 2px solid royalblue;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img#central{
+    display: inline-block;
+    height: 370px;
+    position: relative;
+    border-radius: 500px;
+    margin-left: 22%;
+    top: 100px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+    color:rgb(55, 11, 136);
+}
+
+p{
+    color: #545454;
+}
+
+div#corpo1{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 55%;
+    bottom: 190px;
+}
+
+a#contacto{
+    display: inline-block;
+    color: #313131;
+    border: 2px solid #545454;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+a#contacto:hover{
+    background-color: #545454;
+    color: white;
+}
+
+a#projetos{
+    color: white;
+    background-color: rgb(4, 53, 198);
+    border-radius: 20px;
+    padding: 12px 23px 12px 23px;
+    box-shadow: 1px 1px 10px royalblue;
+}
+
+a#projetos:hover{
+    background-color: rgb(29, 29, 235);
+    box-shadow: 1px 1px 12px rgb(0, 41, 166);
+}
+
+#sociais ul li img{
+    transition: transform 0.3s ease;    
+}
+
+#sociais ul li img:hover{
+    transform: scale(1.2);
+}
+
+#facebook img{
+    display: block;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 130%;
+}
+
+a#insta img{
+    display: block;
+    height: 50px;
+    position: relative;
+    bottom: 9px;
+    margin-left: 80%;
+}
+
+a#whatsApp img{
+    display: block;
+    height: 47px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 60%;
+}
+
+div#mais{
+    margin-top: 250px;
+}
+
+#mais{
+    color: rgb(55, 11, 136);
+    margin: 0px 800px 0px 170px;
+    font-size: 20px;
+}
+
+#mais1{
+        color: rgb(55, 11, 136);
+        margin: 270px 170px 0px 800px;
+
+}
+
+#htmlimg{
+    height: 200px;
+}
+
+#cssimg{
+    height: 200px;
+}
+
+#jsimg{
+    height: 200px;
+}
+
+#mais2{
+        color: rgb(55, 11, 136);
+        margin: 90px 800px 0px 170px;
+}
+
+#mais3{ 
+    color:rgb(55, 11, 136);
+    margin-top: 320px;
+}
+
+div#inf{
+    color: #313131;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+div#inf p{
+    float: left;
+}
+
+#ultimo{
+    text-align: center;
+    margin-top: 110px;
+
+}
+
+footer{
+    margin-top: 520px;
+    background-image: linear-gradient(#cecece, #9b9b9b);
+}
+
+@media (max-width: 480px){
+
+h1{
+    color: rgb(55, 11, 136);
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ul{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#sociais{
+    display: none;
+}
+
+img#central{
+    display: block;
+    height: 250px;
+    position: relative;
+    border-radius: 500px;
+    margin: auto;
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px;
+    color:rgb(55, 11, 136);
+}
+
+p{
+    color: #545454;
+}
+
+#mais{
+    margin: auto;
+    position: relative;
+    top: 100px;
+    text-align: center;
+
+}
+
+#mais1{
+    color: rgb(55, 11, 136);
+    margin: auto;
+    position: relative;
+    top: 400px;
+    text-align: center;
+
+}
+
+#htmlimg{
+height: 200px;
+}
+
+#cssimg{
+height: 200px;
+}
+
+#jsimg{
+height: 200px;
+}
+
+#mais2{
+    text-align: center;
+    color: rgb(55, 11, 136);
+    margin: auto;
+    position: relative;
+    top: 700px;
+}
+
+div#corpo1{
+    display: block;
+    font-size: 15px;
+    position: relative;
+    left: 2%;
+    top: 140px;
+
+}
+
+div#inf{
+    color: #313131;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+footer{
+    margin-top: 1320px;
+    background-image: linear-gradient(#cecece, #9b9b9b);
+}
+}
